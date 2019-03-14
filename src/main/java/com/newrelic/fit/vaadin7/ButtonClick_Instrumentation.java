@@ -8,7 +8,7 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.vaadin.server.Page;
 import com.vaadin.ui.Button.ClickEvent;
 
-@Weave(originalName="com.vaadin.ui.Button$ClickListener", type=MatchType.Interface)
+//@Weave(originalName="com.vaadin.ui.Button$ClickListener", type=MatchType.Interface)
 public class ButtonClick_Instrumentation {
 
 	@Trace(dispatcher=true)

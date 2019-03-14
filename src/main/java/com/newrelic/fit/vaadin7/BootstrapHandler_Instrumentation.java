@@ -8,7 +8,7 @@ import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 import com.vaadin.server.BootstrapPageResponse;
 
-//@Weave(originalName="com.vaadin.server.BootstrapHandler", type=MatchType.BaseClass)
+@Weave(originalName="com.vaadin.server.BootstrapHandler", type=MatchType.BaseClass)
 public abstract class BootstrapHandler_Instrumentation {
 
 	@SuppressWarnings("unused")
